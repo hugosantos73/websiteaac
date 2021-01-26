@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link link rel="stylesheet" href="stylesheet.css">
+
+<!-- Para utilizar icons com referencia à font-awesome-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Para adicionar o titulo da página-->
+  <title>AAC - Loja Online - Acessórios</title>
+</head>
+
+<!-- Formulário para Sócio + Menu Lateral Implementado com icons de FontAwesome -->
+
+<body>
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            <br>
+            <a href="paginaprincipal.html"><i class="fa fa-fw fa-futbol-o"></i> Pagina Principal</a>
+            <a href="paginaclube_historia.html"><i class="fa fa-fw fa-home"></i> Clube</a>
+            <a href="paginalojaonline_bilheteira.html"><i class="fa fa-fw fa-shopping-bag"></i> Loja Online</a>
+            <a href="paginasuporte_faq.html"><i class="fa fa-fw fa-question"></i></i>Suporte</a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()" ><img src="aac_logo.png" id="logobutao" width="100%" height="100%"></button>
+        </div>
+
+<!-- Script para função de abrir e fechar menu com movimentação do conteúdo da página para a direita-->
+
+      <script>
+          function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+      </script>
+
+<!-- texto em cima e botão para fazer sócio -->   
+
+      <div id="espacobutao">
+        <div class="button" id="butaosocio">
+            <a href="formulario_Socio.html" id="butaosocio"> Faz-te Socio!</a>
+        </div>
+      </div>
+      <div id="aacpenafieladd_espacamento">
+        <label id="aacpenafieladd"> ASSOCIACAO ACADEMICA DE COIMBRA VS PENAFIEL - HOJE - 19H</label>
+      </div>
+  
+
+
+<!-- Pagina Online - Imagens e texto -->
+
+    <div id="imagem_espaçamento">     
+      <div id="imagem3">
+          <img src="equipamento.jpg" alt="logaonline" id="imagem3">
+      </div>
+    </div>   
+
+<!-- Pagina Clube - Botões para páginas-->
+
+    <div id="espacobutaocontinuar">
+        <div class="button" id="butaohistoria">
+          <input type="button" onclick="location.href='paginalojaonline_bilheteira.html'" value="Bilheteira" class="butaobilheteira">
+          <input type="button" onclick="location.href='paginalojaonline_acessorios.html'" value="Acessorios" class="butaoacessorios">
+        </div>
+    </div>
+
+<!-- Texto -->
+
+    <div id="textoacessorios">
+        <p id="textoacessorios"> Devido a pandemia existente no nosso pais, ainda nao apresentamos stock disponivel de acessorios</p>
+        <p id="textoacessorios"> No futuro, tudo estara novamente disponivel atraves da implementacao de stock online</p>
+    </div>
+
+<!-- Footer -->
+
+    <footer id="footer">
+        <h2 id="direitos_aac"> Direitos de website atribuidos a AAC- OAF</h2>
+    </footer>
+
+    </div>
+  </body>
+</html>

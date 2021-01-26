@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link link rel="stylesheet" href="stylesheet.css">
+
+<!-- Para utilizar icons com referencia à font-awesome-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Para adicionar o titulo da página-->
+  <title>AAC - Suporte - Questão</title>
+</head>
+
+<!-- Formulário para Sócio + Menu Lateral Implementado com icons de FontAwesome -->
+
+<body>
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <br>
+            <a href="paginaprincipal.html"><i class="fa fa-fw fa-futbol-o"></i> Pagina Principal</a>
+            <a href="paginaclube_historia.html"><i class="fa fa-fw fa-home"></i> Clube</a>
+            <a href="paginalojaonline_bilheteira.html"><i class="fa fa-fw fa-shopping-bag"></i> Loja Online</a>
+            <a href="paginasuporte_faq.html"><i class="fa fa-fw fa-question"></i></i>Suporte</a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()" ><img src="aac_logo.png" id="logobutao" width="100%" height="100%"></button>
+        </div>
+
+<!-- Script para função de abrir e fechar menu com movimentação do conteúdo da página para a direita-->
+
+      <script>
+          function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+      </script>
+
+<!-- texto em cima e botão para fazer sócio -->   
+
+      
+      <div id="espacobutao">
+        <div class="button" id="butaosocio">
+            <a href="formulario_Socio.html" id="butaosocio"> Faz-te Socio!</a>
+        </div>
+      </div>
+      <div id="aacpenafieladd_espacamento">
+      <label id="aacpenafieladd"> ASSOCIACAO ACADEMICA DE COIMBRA VS PENAFIEL - HOJE - 19H</label>
+        </div>
+  
+
+
+<!-- Imagens e texto -->
+
+      <div id="imagem_espaçamento">        
+        <div id="imagem4">
+          <img src="aac_suporte.jpg" alt="suporte" id="imagem4">
+        </div>
+      </div> 
+
+
+      <div id="faq_espacamento">
+        <div id="butaofaq">
+          <a href="paginasuporte_faq.html" type="button" id="butaofaq">FAQ</a>
+        </div>
+      </div>
+
+      <div id="questao_espacamento">
+        <div id="butaoquestao">
+          <a href="paginasuporte_questao.html" type="button" id="butaoquestao">Questao</a>
+        </div>
+      </div>
+
+      <h2 id="txt_questao"> Insira de seguida a sua questao, preenchendo todos os espacos</h2></h1>
+
+<!-- Formulário para submeter questão-->
+
+    <form>
+
+        <!-- Nome Completo -->
+        <div id="nome_completo_questao_espacamento">
+            <label> Insira o seu nome completo </label><input type="text" class="input" id="nome_completo_questao">
+        </div>
+
+        <!-- Email -->
+        <div id="email_questao_espacamento">
+            <label>Insira o seu email</label><input type="email" class="input" id="email_questao">
+        </div>
+
+        <!-- telemovel -->
+        <div id="telemovel_questao_espacamento">
+            <label>Insira o seu numero de telemovel</label><input type="number" class="input" id="telemovel_questao">
+        </div> 
+
+        <!-- Tratamento -->
+        <div class="select" id="tratamento">
+            <ul>
+              <li class="lista_tratamento">
+                  <input type="radio" name="genero" value="sr" checked > Sr
+                  <input type="radio" name="genero" value="sra"> Sra
+              </li>
+            </ul>
+        </div>
+        
+        <!-- Questão txt-->
+        <div id="questao_txt">
+            <label id="label_questao">Insira a sua questao</label>
+            <input type="text" class="input" placeholder="Escreva aqui" id="escreva_aqui">
+        </div>
+        <div id="butaocomprar1">
+            <div id="butaocomprar1">
+              <input type="button" value="Enviar" class="myButton_questao" onclick="clickAlert2()">
+            </div>
+        </div>
+
+<!-- JAVASCRIPT PARA ALERTA NO BOTÃO CONTINUAR-->
+          <script>
+              function clickAlert2(){
+                alert("Questao enviada! Obrigado por colocar a sua duvida, recebera resposta em breve.")
+              }
+          </script>
+
+      </form>
+  </div> 
+  </body>
+</html>

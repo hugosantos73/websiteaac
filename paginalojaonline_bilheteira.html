@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link link rel="stylesheet" href="stylesheet.css">
+
+<!-- Para utilizar icons com referencia à font-awesome-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Para adicionar o titulo da página-->
+  <title>AAC - Loja Online - Bilheteira</title>
+</head>
+
+<!-- Formulário para Sócio + Menu Lateral Implementado com icons de FontAwesome -->
+
+<body>
+    <div class="container">
+        <div id="mySidebar" class="sidebar">
+            <a  class="closebtn" onclick="closeNav()">&times;</a>
+            <br>
+            <a href="paginaprincipal.html"><i class="fa fa-fw fa-futbol-o"></i> Pagina Principal</a>
+            <a href="paginaclube_historia.html"><i class="fa fa-fw fa-home"></i> Clube</a>
+            <a href="paginalojaonline_bilheteira.html"><i class="fa fa-fw fa-shopping-bag"></i> Loja Online</a>
+            <a href="paginasuporte_faq.html"><i class="fa fa-fw fa-question"></i></i>Suporte</a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()" ><img src="aac_logo.png" id="logobutao" width="100%" height="100%"></button>
+        </div>
+
+<!-- Script para função de abrir e fechar menu com movimentação do conteúdo da página para a direita-->
+
+      <script>
+          function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+          }
+      </script>
+
+ <!-- texto em cima e botão para fazer sócio -->   
+      <div id="espacobutao">
+        <div class="button" id="butaosocio">
+            <a href="formulario_Socio.html" id="butaosocio"> Faz-te Socio!</a>
+        </div>
+      </div>
+        <div id="aacpenafieladd_espacamento">
+        <label id="aacpenafieladd"> ASSOCIACAO ACADEMICA DE COIMBRA VS PENAFIEL - HOJE - 19H</label>
+      </div>
+  
+
+
+<!-- Pagina Online - Imagens e texto -->
+
+    <div id="imagem_espaçamento">        
+      <div id="imagem3">
+        <img src="equipamento.jpg" alt="logaonline" id="imagem3">
+      </div>
+    </div> 
+
+<!-- Pagina Clube - Botões para páginas-->
+
+    <div id="espacobutaocontinuar">
+        <div class="button" id="butaohistoria">
+          <input type="button" onclick="location.href='paginalojaonline_bilheteira.html'" value="Bilheteira" class="butaobilheteira">
+          <input type="button" onclick="location.href='paginalojaonline_acessorios.html'" value="Acessorios" class="butaoacessorios">
+        </div>
+    </div>
+
+<!-- Texto e botões de compra -->
+
+    <div class="texto4">
+      <p class="texto4">Atraves da nossa loja online pode verificar o precario dos bilhetes para qualquer jogo no Estadio Cidade de Coimbra</p> 
+    </div>
+      <div id="posicaobilhete">
+      <img src="Bilhete.png" alt="bilheteaac" id="bilheteaac"></div>
+   
+
+    <div class="jogoacademicapenafiel_texto">
+      <p class="jogoacademicapenafiel_texto"> Bilhete para o Jogo Academica vs FC Penafiel - 5€. <br><br> Caso adquira entre 5 e 9 bilhetes (inclusive), terá um desconto de 20%. <br><br>No caso de adquirir 10 ou mais bilhetes, terá um desconto de 35%</p>
+    </div>
+
+    <div id="butaocomprar1">
+        <div class="button" id="butaocomprar1">
+          <input type="button" onclick="notificator()" value="Comprar" class="myButton1">
+        </div>
+    </div>
+
+<!-- JS PARA ALERTAS DO BUTAO DE COMPRA -->
+
+    <script>
+    
+      function notificator(bilhete){ 
+
+      bilhete = prompt("Olá, quantos bilhetes gostaria de adquirir?", 0);
+
+      /* Para limitar unicamente a inserção numerica de bilhetes */   
+
+        while ((bilhete <=0 || bilhete >0) == false){
+              alert("Introduza, numericamente, a quantidade de bilhetes que deseja para o encontro AAC - Penafiel");
+              bilhete = prompt("Olá, quantos bilhetes gostaria de adquirir?", 0);
+        }
+
+      /* Condições aos descontos a aplicar e consquentes mensagens*/
+
+      if (bilhete <= 0){
+        alert ("Não adquiriu qualquer bilhete. Tente novamente");
+       }
+       else if (bilhete < 5){
+        alert ("Obrigado por adquir " + bilhete + " bilhetes. Bom jogo!");
+       }
+       
+       else if (bilhete < 10){
+        alert ("Obrigado por adquirir " + bilhete + " bilhetes. Usufruiu de 20% de desconto graças à nossa campanha. Bom jogo!");
+       }
+       else if (bilhete >= 10){
+        alert ("Obrigado por adquirir " + bilhete + " bilhetes. Usufruiu de 35% de desconto! Bom jogo e divirta-se");  
+        }
+      } 
+    </script>
+
+
+  <!-- Footer -->
+      <footer id="footer">
+        <h2 id="direitos_aac"> Direitos de website atribuidos a AAC- OAF</h2>
+      </footer>
+
+      
+    </div>
+  </body>
+</html>

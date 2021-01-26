@@ -1,0 +1,1026 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container{
+    max-width: 90%;
+    margin: 5% 5%;
+    width: 100%;
+    background-color: white;
+    align-self: center;
+}
+
+.sidebar {
+    height: 45%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    background-color:rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 10%;
+    transition: 0.5s; 
+    margin-left: 0%;
+    margin-right: 15%;
+  }
+
+  .sidebar a {
+    padding: 0px 0px 15% 0px;
+    text-decoration: none;
+    font-size: 140%;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10%;
+  }
+
+  .sidebar a:hover {
+    color: rgb(129, 129, 129);
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 10%;
+    font-size: 35px;
+    margin-left:90%;
+    margin-right: 20%;
+    color: black;
+  }
+
+  .openbtn {
+    font-size: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: transparent;
+    background-color: transparent;
+    position: relative;
+  }
+  
+  .openbtn:hover {
+    background-color:transparent;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    width: 4%;
+    height: 10px;
+    max-height: 10%;
+    background-color: transparent;
+  }
+
+  .title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+  }
+  
+  .jogoacademicapenafiel_texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    background-color: black;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    margin-left: 11%;
+
+  }
+
+  
+
+  .form{
+    width: 100%;
+    border-color: black;
+  }
+
+  .inputfield{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+  }
+
+
+ #logobutao{background-color: transparent;
+  background-image: none;}
+
+ #imagemsubmit{
+   margin-left: 20%;
+   margin-right: -23%;
+ }
+
+  #nome_completo{
+    font-size: 115%;
+    margin-left: 45%;
+    margin-top: 2%;
+    width: 30%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+
+  #data_nascimento{
+    font-size: 115%;
+    margin-left: 36%;
+    margin-top: 4%;
+    width: 20%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+  
+  #data_nascimento_1{
+    font-size: 105%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-right: -10%;
+  }
+
+  #moradacompleta{
+    font-size: 105%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+
+  #morada{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 55%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+
+  #codigopostal1{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-right: -18%;
+    margin-top: 2%;
+    width: 10%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+
+  #codigopostal2{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-right: -16%;
+    width: 5%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+  
+  #localidade{
+    font-size: 115%;
+    margin-left: 18%;
+    margin-top: 1%;
+    margin-right:-17%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+  
+  #nac{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 1%;
+    width: 5.5%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+  
+  #email{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: -16%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+
+
+  #telemovel{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+
+  #nif{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 1%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+  
+  #gen{
+    font-size: 80%;
+    margin-left: 50%;
+    margin-top: -1.4%;
+    width: -4%;;}
+  
+
+  #documento_identificacao{
+    font-size: 105%;
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+
+  #doc{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: -15%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+  
+  #documento{
+    font-size: 115%;
+    margin-left: 20%;
+    margin-top: 1%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+
+  #checkbox{ margin-left: 20%;
+    margin-top: 1%;
+    margin-right: -20%;
+  }
+
+  #termos{
+    font-size: 105%;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-right: -20%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+  }
+
+  #termos1{
+    font-size: 95%;
+    margin-left: 20%;
+    margin-top: 1%;
+    width: 25%;
+    padding-top: 0.3%;
+    padding-bottom: 0.1%;
+    padding-left: 0.1%;
+  }
+
+  #termos2{
+    font-size: 95%;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-right: 10%;
+    width: 40%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.1%;
+    align-self: left;
+    display: flex;
+  }
+  #espacobutaocontinuar{
+    margin-top: 1%;
+  }
+
+  .myButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0.5% 0.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 110%;
+    margin-left: 70%;
+  }
+
+  #espacobutao{
+    margin-bottom: 0.5%;
+    width: 100%;  
+  }
+
+  #butaosocio{
+    font-size: 105%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width:20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #butaosocio::after{
+    font-size: 115%;
+    margin-left: 50%;
+    background-color: black;
+    color: white;
+  }
+  
+  #aacpenafieladd_espacamento{
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #aacpenafieladd{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color:black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 1%;
+    background-size: contain;
+  }
+
+
+  #text1_2_espacamento{
+    width: 100%;
+  }
+  #texto1{
+    margin-left:25%;
+    margin-top: -8%;
+    font-size: 145%;
+    font-weight: bold;
+    display: block;
+  }
+
+  #texto2{
+    align-self: center;
+    text-align: left;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 1%;
+    font-size: 170%;
+  } 
+
+  #imagem_espaçamento{width: 100%;}
+
+  #imagem{
+    margin-left:auto;
+    margin-right: auto;
+    align-self: center;
+    display:block;
+    opacity: 65%;
+    filter:brightness(70%);
+  }
+
+
+  /* Proximo Jogo */
+
+  #proximojogo{
+    font-size: 90%;
+    margin-left:22%;
+    margin-top: 3%;
+  }
+
+  #hoje{
+    font-size: 165%;
+    margin-left: 29%;
+    margin-top:1.5%;
+  }
+
+  #imagemproximojogo{
+    width: 30%;
+    height: 30%;
+    margin-left: 17%;
+    margin-top: 2%;
+  }
+
+  #imagemproximojogo2{
+    width: 30%;
+    height: 30%;
+    margin-left: 15%;
+    margin-top: 2%;
+  }
+
+  /* Tabela Classificativa - Pagina Principal */
+
+  .ptable table{
+    margin-top: 3%;
+    margin-left: 48%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  th, td {
+      padding: 4%;
+  }
+  
+  th{
+    color: black;
+  }
+  
+  .cabecalo{
+    margin-left: 57%;
+    margin-top: -17%;
+    color: #000000;
+    display: block;
+    font-size: 180%;
+  }
+  
+  .pos{
+    text-align: center;
+    color: black;
+  }
+
+  /* Tabela Classificativa - Pagina Classificacao */
+
+  .tabela_classificacao{
+    border-collapse: collapse;
+    margin: 5% 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1% 1% 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .tabela_classificacao thead tr {
+    background-color: white;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .tabela_classificacao td {
+    padding: 5% 5%;
+    font-size: 100%;
+    padding-left: 7%;
+    width: 165px;
+}
+
+
+
+  /* Botão para Mais info - Página de tabela e jogadores */
+
+  #vermais{
+    font-size: 105%;
+    margin-left: 22%;
+    margin-top:1%;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    width:30%;
+    text-decoration-line: none;
+  }
+  
+  #Classificacao_direcao{
+    margin-left: 57%;
+    margin-top: -1%;
+  }
+
+  #classificacao_txt{
+    color: black;
+    width: fit-content;
+    font-size: 110%;
+    text-decoration-line: none;
+  }
+
+  /* CSS PARA PAGINA - PAGINAJOGO */
+
+  #HOJE_informacao{
+    font-size: 110%;
+    align-self: center;
+    margin-left:22%;
+    margin-top:2%
+  }
+
+
+  figcaption{
+    text-align: center;
+
+  }
+  #aac{
+    width:7%;
+  }
+
+  #penafiel{
+    width: 7%;}
+
+  #figure{
+    margin-left: -20%;
+    text-align: center;
+    margin-top: 3%;
+    align-content: center;
+  }
+
+  #figure2{
+    margin-left: -2%;
+    text-align: center;
+    margin-top: -9.7%;
+    align-content: center;
+    width: 120%;
+  }
+
+  /* Tabela - PAGINA JOGO */
+
+  .ptable_paginajogo{
+    margin-top: -5%;
+    margin-left: 32%;
+    border-collapse: collapse;
+  }
+  
+  th, td .cabecalo_paginajogo {
+      padding: 50px;
+  }
+
+  th, td .pos_paginajogo {
+    padding: 25px;
+}
+  
+  th .pos_paginajogo{
+    color: black;
+  }
+  
+  .cabecalo_paginajogo{
+    margin-left: 15%;
+    margin-top: 20%;
+    color: #000000;
+    display: block;
+    font-size: 180%;
+  }
+  
+  .pos_paginajogo{
+    text-align: center;
+    color: black;
+  }
+
+  /* Imagens jogadores*/
+
+#jogadoresdestaque{
+  align-self: center;
+  margin-left: 39%;}
+
+#gustavo_paginajogo{
+    width:7%;
+  }
+
+#mohamed_paginajogo{
+    width: 7%;}
+
+#figure3{
+  margin-left: -20%;
+  text-align: center;
+  margin-top: 3%;
+  align-content: center;
+}
+
+#figure4{
+  margin-left: -2%;
+  text-align: center;
+  margin-top: -9.7%;
+  align-content: center;
+  width: 120%;
+}
+
+
+/* Pagina Clube */
+
+#espaçameno_clube{width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+#imagem2{
+  margin-top: 0%;
+  align-self: center;
+  opacity: 100%;
+  filter:brightness(100%);
+  height: 75%;
+  width: 75.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+#texto3_espacamento{
+  width: 100%;}
+
+#texto3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 20%;
+  margin-top: -4%;
+  font-size: 160%;
+  color:white;
+  position:absolute;
+} 
+
+.butaohistoria {
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 110%;
+  margin-left: 21.5%;
+  margin-top: -1%;
+  font-weight: bold;
+}
+
+.butaohistoria:hover{
+  background-color: black;
+  color: white;
+}
+
+.butaotitulos {
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 110%;
+  margin-left: 5%;
+  margin-top: -1%;
+  font-weight: bold;
+}
+
+.butaotitulos:hover{
+  background-color: black;
+  color: white;
+}
+
+.butaoestadio {
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 110%;
+  margin-left: 5%;
+  margin-top: -1%;
+  font-weight: bold;
+}
+
+.butaoestadio:hover{
+  background-color: black;
+  color: white;
+}
+
+
+#texto_paginaclube{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2%;
+  background-color: none;
+  color: black;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  margin-left: 25%;
+  padding-left: 1.5%;
+  margin-right: 20%;
+  max-width: 40%;
+}
+
+#imagemaac_historia{
+  width: 80%;
+  margin-left: 110%;
+  margin-top: -30%;
+  opacity: 90%;
+}
+
+/* Setor pagina clube titulos */
+
+#texto_paginaclube{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2%;
+  background-color: none;
+  color: black;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  margin-left: 20%;
+  margin-right: 25%;
+  max-width: 30%;
+  text-align: left;
+}
+
+#aac_campea{
+  height: 140%;
+  width:90%;
+  margin-left: 100%;
+  margin-top: -30%;
+  opacity: 100%;
+}
+
+/*Setor pagina clube  e Estadio c JS */
+
+
+#texto_paginaclube_estadio{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2%;
+  background-color: none;
+  color: black;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  margin-left: 22%;
+  margin-right: 25%;
+  max-width: 28%;
+  text-align: left;
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+  margin-left: 101%;
+  margin-top: -52%;
+  position: relative;
+  }
+
+
+
+
+/* Pagina online */
+
+#imagem3{
+  align-self: center;
+  opacity: 100%;
+  filter:brightness(100%);
+  height: 75%;
+  width: 75.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.butaobilheteira {
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 110%;
+  margin-left: 21.5%;
+  margin-top: 0.5%;
+  font-weight: bold;
+}
+
+
+.butaobilheteira:hover{
+  background-color: black;
+  color: white;
+}
+
+.butaoacessorios {
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 110%;
+  margin-left: 5%;
+  margin-top: -1%;
+  font-weight: bold;
+}
+
+
+.butaoacessorios:hover{
+  background-color: black;
+  color: white;
+}
+
+
+/* Pagina Online - Bilheteira */
+
+.texto4{
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding-left: 11.5%;
+  padding-top: 1%;
+}
+
+
+.jogoacademicapenafiel_texto{
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding-left: 1%;
+}
+
+
+#butaocomprar1{
+  margin-top: -1%;
+  padding-left: 1.5%;
+  ;}
+
+.myButton1 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.5% 0.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin-left: 20%;
+}
+
+
+#bilheteaac{
+  width: 40%;
+  align-self: center;
+  margin-left: 21%;
+  margin-top: 1%;
+}
+  
+#textoacessorios{
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding-left: 11.5%;
+  padding-top: 1%;
+}
+
+
+/* footer */
+
+#direitos_aac{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 95%;
+}
+
+#footer{
+  background-color: black; 
+  color:white; 
+  text-align: center;
+  font-weight: initial;
+  width: 57%; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+/* Pagina Suporte - FAQ */
+
+
+#imagem_espaçameno{width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+#imagem4{
+  margin-top: 0%;
+  align-self: center;
+  opacity: 100%;
+  filter:brightness(100%);
+  width: 75.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+#faq_espacamento{
+  margin-left: 22.5%;
+  margin-top: 1%;
+}
+
+#butaofaq {
+  background-color: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#butaofaq:hover{
+  background-color: black;
+  color: white;
+}
+
+#questao_espacamento{
+  margin-left: 30%;
+  margin-top: -1%;
+}
+
+#butaoquestao{
+  font-size: 100%;
+  color: black;
+  text-decoration-line: none;
+  font-weight: bold;
+  background-size: contain;
+  margin-left: 5%;
+}
+
+#butaoquestao:hover{
+  background-color: black;
+  color: white;
+}
+
+#faq_txt_1{
+  padding-left: 22%;
+  padding-top: 2%;
+}
+
+
+/* Página Suporte - Questão */
+
+#txt_questao{
+  margin-left: 22%;
+  margin-top: 1.5%;
+}
+
+#nome_completo_questao_espacamento{
+  margin-left: 22%;
+  margin-top: 2%;
+  font-size: 110%;
+}
+
+#nome_completo_questao{
+  margin-left: 1%;
+  width: 40%;
+}
+
+#email_questao_espacamento{
+  margin-left: 22%;
+  margin-top: 2%;
+  font-size: 110%;
+}
+
+#email_questao{
+  margin-left: 1%;
+  width: 20%;
+}
+
+#telemovel_questao_espacamento{
+  margin-left: 22%;
+  margin-top: 2%;
+  font-size: 110%;
+}
+
+#telemovel_questao{
+  margin-left: 1%;
+  width: 20%;
+}
+
+#tratamento{
+  margin-left: 23%;
+  margin-top: 2%;
+  font-size: 110%;
+}
+
+#questao_txt{
+  margin-left: 22%;
+  margin-top: 2%;
+  font-size: 110%;
+}
+
+#escreva_aqui{
+  width: 50%;
+  height: 50px;
+}
+
+.myButton_questao {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.5% 0.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin-left: 72%;
+  margin-top: 3%;
+}
+
+
